@@ -10,8 +10,8 @@ package:
 source:
   fn: plotly_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/plotly_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/plotly/plotly_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/plotly_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/plotly/plotly_{{ version }}.tar.gz
   sha256: 7cd4b040f9bfd9356a8a2aba59ccf318cae6b5d94ded7463e2e823c10fa74972
 
 
